@@ -1,0 +1,35 @@
+{
+  "name": "passport-login",
+  "version": "1.0.0",
+  "description": "Node.js With Passport Authentication | Full Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aseerkt/passport-login-brad.git"
+  },
+  "author": "Aseer KT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aseerkt/passport-login-brad/issues"
+  },
+  "homepage": "https://github.com/aseerkt/passport-login-brad#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.3",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
